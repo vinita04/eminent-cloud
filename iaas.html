@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>iaas</title>
+<link rel="stylesheet" type="text/css" href="css/iaas.css">
+</head>
+
+<body bgcolor="navyblue">
+
+<h1 class="heading">Infrastructure As a Service</h1>
+
+
+
+<div class="iaas">
+<fieldset>
+<form action="/cgi-bin/iaas_client.py" target="_blank">
+
+
+os ram   <select name="osram"> 
+	 <option value="1024">1024</option>
+	 <option value="2048">2048</option>
+	 <option value="3072">3072</option>
+	 <option value="4096">4096</option>
+	 </select> MB </br> </br>
+os cpu   <select name="oscpu"> 
+	 <option value="1">1</option>
+	 <option value="2">2</option>
+	 </select> core </br> </br>
+os hdd   <select name="oshdd"> 
+	 <option value="1">1</option>
+	 <option value="2">2</option>
+	 <option value="3">3</option>
+	 <option value="4">4</option>
+	 </select> GB </br> </br>
+os name  <select name="osname" > 
+	 <option value="redhat">RHEL7.2</option>
+	 <option value="kali">Kali</option>
+	 <option value="centos">Centos</option>
+	 <option value="ubuntu">Ubuntu</option>
+	 </select> </br> </br>
+
+<input type="submit" value="Submit">
+</div>
+
+</form>
+</fieldset>
+</body>
+</html>
